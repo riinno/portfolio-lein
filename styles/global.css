@@ -8,11 +8,51 @@
 :root 
 {
   --font-family: "EB Garamond", serif;
+
+  --bg-gradient-1: #63a3ff;
+  --bg-gradient-2: #b6dcff;
+  --bg-gradient-3: #72beff;
+
+  --primary-color: #ffffff;
 }
 
 body 
 {
-  font-size: var(--font-family);
+  font-family: var(--font-family);
 
-  background-color: blue;
+  /* overflow: hidden; */
+}
+
+main 
+{
+  height: 100vh;
+  background: 
+    linear-gradient(var(--bg-gradient-1) 20%, 
+    var(--bg-gradient-2) 40% 45%, 
+    var(--bg-gradient-3) 65% 100%);
+}
+
+.container 
+{
+  max-width: 1500px;
+  padding-inline: 3vw;
+
+  margin: auto;
+}
+
+.header-container
+{
+  padding-block: 1vh;
+
+  background-color: var(--primary-color);
+}
+
+ul 
+{
+  list-style: none;
+}
+
+a 
+{
+  text-decoration: none;
 }

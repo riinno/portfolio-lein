@@ -1,43 +1,124 @@
 <!DOCTYPE html>
-  <html lang="pt-br">
+<html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lein | Portfólio</title>
   
     <link rel="stylesheet" href="styles/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
   </head>
-  
+
   <body>
+    <header class="container header-container">
+      <nav id="primary-menu">
+        <a href="#" class="logo-wrap">
+          <img id="logo" src="assets/logo-lein-machado.jpg" alt="Logo de Lein Machado">
+        </a>
+        
+        <div class="ul-wrap">
+          <ul>
+            <li>
+              <a href="#">montagem</a>
+            </li>
 
-    <nav id="primary-menu" class="nav-container">
-      <a href="#">
-        <img src="assets/imgs/logo_lein.jpg" alt="Logo de Lein Machado">
-      </a>
+            <li>
+              <a href="#">efeitos visuais</a>
+            </li>
 
-      <ul>
-        <li>
-          <a href="#">montagem</a>
-        </li>
+            <li>
+              <a href="#">experimentações</a>
+            </li>
 
-        <li>
-          <a href="#">efeitos visuais</a>
-        </li>
+            <li>
+              <a href="#">curadoria</a>
+            </li>
 
-        <li>
-          <a href="#">experimentações</a>
-        </li>
+            <li>
+              <a href="#">sobre</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        <li>
-          <a href="#">sobre</a>
-        </li>
-      </ul>
-    </nav>
+    <main>
+      <div id="info-btn" class="container grid grid-flow-col grid-cols-2x1">
+        <section id="info-card">
+          <article>
+            <p>
+              ele-dele<br>
+              2001 - curitiba paraná<br><br>
+              site portfólio contendo um apanhado<br>
+              de trabalhos relacionados a<br>
+              pós-produção em cinema e<br>
+              audiovisual<br>
+              -- montagem e edição,<br>
+              efeitos visuais e motion design.
+            </p>
+          </article>
+        </section>
 
-    <main class="main-container">
-      <img src="assets/imgs/bg-clouds.png" alt="">
-      <img src="assets/imgs/bg-clouds.png" alt="">
+        <div id="bird" class="grid">
+          <img src="assets/imgs/bird.gif" alt="">
+        </div>
+
+        <section id="btn-5" class="grid grid-cols-3 gap-16">
+          <div class="card-hover">
+            <div class="card grid">
+              <a href="#">
+                <img src="assets/imgs/bird.gif" alt="">
+              </a>  
+
+              <span>montagem</span>
+            </div>
+          </div>
+
+          <div class="card-hover">
+            <div class="card grid">
+              <a href="#">
+                <img src="assets/imgs/transfire.gif" alt="">
+              </a>
+
+              <span>efeitos visuais</span>
+            </div>
+          </div>
+
+          <div class="card-hover">
+            <div class="card grid">
+              <a href="#">
+                <img src="assets/imgs/idk.gif" alt="">
+              </a>
+
+              <span>experimentações</span>
+            </div>
+          </div>
+
+          <div class="card-hover">
+            <div class="card grid">
+              <a href="#">
+                <img src="assets/imgs/transfire.gif" alt="">
+              </a>
+
+              <span>curadoria</span>
+            </div>
+          </div>
+
+          <div class="card-hover">
+            <div class="card grid">
+              <a href="#">
+                <img src="assets/imgs/question.gif" alt="">
+              </a>
+
+              <span>sobre</span>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-    
   </body>
 </html>

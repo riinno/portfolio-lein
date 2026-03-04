@@ -1,0 +1,40 @@
+#primary-menu
+{
+  display: flex;
+
+  justify-content: space-between;
+  align-items: baseline;
+
+  font-size: 20px;
+
+  ul 
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+#logo
+{
+  width: 100%;
+  
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+}
+
+.logo-wrap 
+{
+  width: 250px;
+  height: 130px;
+  overflow: hidden;
+
+  position: relative;
+  top: 15px;
+}
+
+.ul-wrap 
+{
+  height: 40px;
+}
